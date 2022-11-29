@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-   
+    font-family: "inter", sans-serif;
     
 }
 
@@ -108,7 +108,7 @@ h1{
     padding: 10px;
     text-align: left;
     color: white;
-    background: #ffffff3d;
+    background: #302c2c3d;
     border-radius: 15px;
     display: none;
   }
@@ -138,4 +138,33 @@ h1{
   section > iframe {
     width: 700px;
     height: 500px;
+  }
+  @media only screen and (min-width: 300px ) and (max-width: 600px){
+    h1{
+        font-size: 3rem;
+    } 
+    button{
+       width: 50%;     
+    }
+    input{
+        width: 40%;
+    }
+  }
+  @media only screen and (min-width: 600px) and (max-width: 1024px){
+       h1{
+        font-size: 8rem;
+       }
+       button{
+        width: 20%;
+       }
+  }
+  @media only screen 
+  and(min-width:768px)
+  and(max-width: 1336px){
+    h1{
+        font-size: 7rem;
+    }
+    button{
+        width:20%;
+    }
   }
