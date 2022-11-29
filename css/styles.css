@@ -149,6 +149,7 @@ h1{
     input{
         width: 40%;
     }
+    
   }
   @media only screen and (min-width: 600px) and (max-width: 1024px){
        h1{
